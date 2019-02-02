@@ -3,7 +3,7 @@
 #### What is it?
 An implementation (dependent to [org.xerial.sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)) of [vaha-localdb](https://github.com/vahithanoglu/vaha-localdb) interface library that can be used on desktop platforms (such as Linux, MacOS and Windows).
 
-#### ExampleDBCore.java (an implementation of abstract class SQLiteDBCore)
+#### ExampleDBCore.java (an implementation of abstract class [SQLiteDBCore](./src/main/java/com/vahabilisim/localdb/sqlite/SQLiteDBCore.java))
 ```java
 package com.vahabilisim.localdb.sqlite.example;
 
