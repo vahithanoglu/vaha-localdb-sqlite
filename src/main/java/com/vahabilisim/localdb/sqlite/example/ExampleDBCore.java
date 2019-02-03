@@ -15,7 +15,7 @@ public class ExampleDBCore extends SQLiteDBCore {
     }
 
     @Override
-    public void onCreate(LocalDBTrans trans) throws LocalDBException {
+    public void onCreate(LocalDBTrans trans) {
         // table "car" is from version 1
         trans.execSQL("CREATE TABLE car (id TEXT PRIMARY KEY, vendor TEXT, model TEXT, year TEXT)");
 
@@ -27,7 +27,7 @@ public class ExampleDBCore extends SQLiteDBCore {
     }
 
     @Override
-    public void onUpgrade(LocalDBTrans trans, int oldVersion, int newVersion) throws LocalDBException {
+    public void onUpgrade(LocalDBTrans trans, int oldVersion, int newVersion) {
         if (oldVersion < 2) {
             trans.execSQL("CREATE TABLE truck (id TEXT PRIMARY KEY, vendor TEXT, model TEXT, year TEXT)");
         }

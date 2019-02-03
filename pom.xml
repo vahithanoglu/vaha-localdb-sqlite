@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.vahabilisim</groupId>
     <artifactId>localdb-sqlite</artifactId>
-    <version>6.0-20190201</version>
+    <version>6.0-20190203</version>
     <packaging>jar</packaging>
     <name>VAHALocalDB-SQLite</name>
     
@@ -13,7 +13,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <version.log4j>1.2.17</version.log4j>
         <version.sqlite-jdbc>3.25.2</version.sqlite-jdbc>
-        <version.vahabilisim.localdb>6.0-20190201</version.vahabilisim.localdb>
+        <version.vahabilisim.localdb>6.0-20190203</version.vahabilisim.localdb>
     </properties>
     
     <dependencies>
